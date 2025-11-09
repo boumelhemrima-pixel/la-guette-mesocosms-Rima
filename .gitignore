@@ -1,0 +1,18 @@
+# OS/IDE
+.DS_Store
+Thumbs.db
+.Rproj.user/
+.vscode/
+.ipynb_checkpoints/
+
+# Data kept local (not uploaded)
+data_raw/
+data_clean/
+data_derived/
+
+# Logs and caches
+*.log
+__pycache__/
+.Rhistory
+.RData
+.renv/library/
