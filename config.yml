@@ -1,0 +1,15 @@
+paths:
+  raw: "data_raw"
+  clean: "data_clean"
+  derived: "data_derived"
+  results: "results"
+  figures: "results-figures"
+
+qc:
+  linearity_r2_min_auto: 0.90
+  linearity_r2_min_manual: 0.85
+
+metadata:
+  timezone: "CET/CEST"
+  location: "La Guette peatland (Sologne, France)"
+  notes: "Timestamps logged in local time (no UTC conversion)"
