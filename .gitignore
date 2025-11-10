@@ -7,8 +7,6 @@ Thumbs.db
 
 # Data kept local (not uploaded)
 data_raw/
-data_clean/
-data_derived/
 
 # Logs and caches
 *.log
@@ -16,3 +14,31 @@ __pycache__/
 .Rhistory
 .RData
 .renv/library/
+
+# Project-specific files/folders you do NOT want on GitHub
+config.yml
+meta/
+
+# Derived / temporary outputs (you can safely regenerate)
+data_clean/
+data_derived/
+results/
+results-figures/
+figures/
+output/
+reports/
+
+# Environment and temporary files
+.env
+.venv/
+venv/
+.Renviron
+
+# Backups, temporary, and system files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+.cache/
+__cache__/
